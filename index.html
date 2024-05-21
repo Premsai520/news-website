@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(65, 69, 69);
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            background-color: #000000;
+            padding-top: 0.5em;
+        }
+
+        .navbar-brand a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 2em;
+
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .navbar-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar-menu li {
+            margin-left: 5em;
+        }
+
+        .navbar-menu a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 0.1em 1em;
+            transition: background-color 0.3s;
+        }
+
+        .navbar-menu a:hover {
+            text-decoration: underline;
+
+        }
+        .newscard1,.newscard3 {
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: inline-block;
+            width: 450px;
+            height: 560px;
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+        .newscard2 {
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: inline-block;
+            width: 450px;
+            height: 560px;
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+        .newscard4 {
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: inline-block;
+            width: 1090px;
+            height: 650px;
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+        .newscard5 {
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: inline-block;
+            width: 300px;
+            height: 650px;
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+
+
+        .newscard1:hover {
+            transform: translateY(-10px);
+        }
+        .newscard2:hover {
+            transform: translateY(-10px);
+        }
+        .newscard3:hover {
+            transform: translateY(-10px);
+        }
+        .newscard4:hover {
+            transform: translateY(-10px);
+        }
+        .newscard5:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-img {
+            height: 330px;
+            width: 100%;
+        }
+        .card-img2 {
+            height: 450px;
+            width: 100%;
+        }
+
+        .card-content {
+            padding: 16px;
+        }
+
+        .card-title {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+
+        .card-text {
+            margin: 0 0 20px;
+            color: #000000;
+            font-size: 0.9em;
+        }
+
+        .card-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:transparent;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .card-button:hover {
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: blueviolet;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                
+                <a href="index.html"><img src="psr-removebg-preview.png" width="100px" alt=""></a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">India</a></li>
+                <li><a href="#">Elections</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Trends</a></li>
+            </ul>
+        </nav>
+        <div class="newscard1">
+            <img src="joik7058_arvind-kejriwal_625x300_18_May_24.webp" alt="Card Image" class="card-img">
+            <div class="card-content">
+                <h2 class="card-title">AAP Claims "Conspiracy" After Probe Agency Says It Got Illegal Foreign Funds</h2>
+                <p class="card-text">AAP leader Atishi has said the charges stem from a 11-year-old case, one to which "all answers have been given to ED, CBI, Home Ministry, and Election Commission".</p>
+                <a href="#" class="card-button">More</a>
+            </div>
+        </div>
+        <div class="newscard2">
+            <img src="t99gnvro_stephen-fleming-bcci_625x300_02_May_24.jpg" alt="Card Image" class="card-img">
+            <div class="card-content">
+                <h2 class="card-title">Amid Reports Of BCCI Approaching Stephen Fleming To Be India Coach, CSK Posts: "Every Move..."</h2>
+                <p class="card-text">Amid Reports Of BCCI Approaching Stephen Fleming To Be India Coach, CSK Posts: "Every Move..."The tenure of the next Indian cricket team coach will run till December 31, 2027.nterested candidates to apply for the top job, with the deadline being May 27.</p>
+                <a href="#" class="card-button">More</a>
+            </div>
+        </div>
+        <div class="newscard3">
+            <img src="jcmupb7_ms-dhoni-bcci_625x300_20_May_24.webp" alt="Card Image" class="card-img">
+            <div class="card-content">
+                <h2 class="card-title"> 
+                    "MS Dhoni Told Management...": CSK Official's Big Revelation On Thala's Retirement</h2>
+                <p class="card-text">MS Dhoni hasn't yet publicly confirmed whether he plans to continue his playing career in the IPL. But, a CSK official has revealed the message Dhoni gave his management.</p>
+                <a href="#" class="card-button">More</a>
+            </div>
+        </div>
+        <div class="newscard4">
+            <img src="PTI05_20_2024_000342B.jpg" alt="Card Image" class="card-img2">
+            <div class="card-content">
+                <h2 class="card-title">India General Elections 2024 Phase 5 LIVE updates | 56.68% voter turnout till 5 p.m.</h2>
+                <p class="card-text">With 13 out of 48 of Maharashtra’s constituencies voting today, Phase 5 marks the end of the Lok Sabha polls in the State. This phase will also mark the last phase of voting from the Union Territory of Jammu and Kashmir as one of their five constituencies will be voting. The Union Territory of Ladakh is also voting in this phase. </p>
+                <a href="#" class="card-button">More</a>
+            </div>
+        </div>
+        <div class="newscard5">
+            <img src="IRFC_1716208274507_1716208274748.avif" alt="Card Image" class="card-img">
+            <div class="card-content">
+                <h2 class="card-title"> 
+                    IRFC Q4 results: Net profit rises 34% to ₹1,717 crore, declares dividend of ₹0.70</h2>
+                <p class="card-text">Miniratna Public Sector Enterprise Indian Railway Finance Corporation (IRFC) announced its financial results for the quarter ended March 31, 2024, today. The company posted a rise in its net profit to ₹1,717 crore versus ₹1,285 crore in thesame period a year ago.</p>
+                <a href="#" class="card-button">More</a>
+            </div>
+        </div>
+    </div>
+    <footer align="center">
+        <p>All rights reserved @psr</p>
+    </footer>
+</body>
+</html>
